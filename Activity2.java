@@ -34,39 +34,39 @@ public class Activity2 {
          System.out.printf("Net Pay: $ %.2f \n\n\n\n",net_pay);
          
          //declare
-         int n1, n2, n3, n4, n5, n6, n7, n8, n9, n10, rs1, rs2, rs3, rs4, rs5, rs6, rs7, rs8, rs9, rs10;
+         int n1, n2, n3, n4, n5, n6, n7, n8, n9, n10, rs = 0;
          //input
          System.out.println("Input 10 Integers");
          n1 = in.nextInt();
-         rs1 = n1;
-         System.out.printf("%d\t",rs1);
+         rs += n1;
+         System.out.println("Running Sum:" + rs);
          n2 = in.nextInt();
-         rs2 = rs1 +n2;
-         System.out.printf("%d\t",rs2);
+         rs += n2;
+         System.out.println("Running Sum:" + rs);
          n3 = in.nextInt();
-         rs3 = rs2 + n3;
-         System.out.printf("%d\t",rs3);
+         rs += n3;
+         System.out.println("Running Sum:" + rs);
          n4 = in.nextInt();
-         rs4 = rs3 + n4;
-         System.out.printf("%d\t",rs4);
+         rs += n4;
+         System.out.println("Running Sum:" + rs);
          n5 = in.nextInt();
-         rs5 = rs4 + n5;
-         System.out.printf("%d\t",rs5);
+         rs += n5;
+         System.out.println("Running Sum:" + rs);
          n6 = in.nextInt();
-         rs6 = rs5 + n6;
-         System.out.printf("%d\t",rs6);
+         rs += n6;
+         System.out.println("Running Sum:" + rs);
          n7 = in.nextInt();
-         rs7 = rs6 + n7;
-         System.out.printf("%d\t",rs7);
+         rs += n7;
+         System.out.println("Running Sum:" + rs);
          n8 = in.nextInt();
-         rs8 = rs7 + n8;
-         System.out.printf("%d\t",rs8);
+         rs += n8;
+         System.out.println("Running Sum:" + rs);
          n9 = in.nextInt();
-         rs9 = rs8 + n9;
-         System.out.printf("%d\t",rs9);
+         rs += n9;
+         System.out.println("Running Sum:" + rs);
          n10 = in.nextInt();
-         rs10 = rs9 + n10;
-         System.out.printf("%d\t",rs10);
+         rs += n10;
+         System.out.println("Running Sum:" + rs);
          
     }
 
