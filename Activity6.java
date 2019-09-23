@@ -25,7 +25,6 @@ public class Activity6 {
         Random rand = new Random();
         //declare
         int player, computer;
-        String choice;
         System.out.println("Rock = 0; Scissors = 1; Paper = 2 --");
         System.out.print("Choose: ");
         player = in.nextInt();
